@@ -1,0 +1,39 @@
+# Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+publish/
+ 
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+ 
+# Rider / VS Code
+.idea/
+.vscode/
+ 
+# NuGet packages (restored automatically on build)
+packages/
+*.nupkg
+ 
+# Test results and coverage
+TestResults/
+coverage*/
+*.coverage
+ 
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+secrets.json
+ 
+# OS clutter
+.DS_Store
+Thumbs.db
